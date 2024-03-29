@@ -1,0 +1,49 @@
+:root {
+    --font-family: "Almarai";
+    --side-navbar-collapsed-width: 3rem;
+    /* --body-top: 0px; */
+}
+@font-face {
+    font-family: "FS Albert Arabic";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/fonts/fs-albert.html") format("truetype");
+}
+@font-face {
+    font-family: "FS Albert Arabic";
+    font-weight: bold;
+    font-style: normal;
+    src: url("assets/fonts/fs-albert-700.html") format("truetype");
+}
+@font-face {
+    font-family: "Somar";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/fonts/ArbFONTS-Somar-Regular.html") format("opentype");
+}
+@font-face {
+    font-family: "Somar";
+    font-weight: 600;
+    font-style: normal;
+    src: url("assets/fonts/ArbFONTS-Somar-SemiBold.html") format("opentype");
+}
+@font-face {
+    font-family: "Somar";
+    font-weight: 700;
+    font-style: normal;
+    src: url("assets/fonts/ArbFONTS-Somar-Bold.html") format("opentype");
+}
+.font-som {
+    font-family: "Somar", sans-serif;
+}
+/* body {
+    height: 1000vh;
+    direction: ltr;
+} */
+.pisitive-nav-top {
+    top: calc(var(--navbar-height));
+}
+
+.font-lem {
+    font-family: "Lemonada", sans-serif;
+}
